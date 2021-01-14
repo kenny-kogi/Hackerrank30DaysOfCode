@@ -13,7 +13,7 @@ class Practise9 extends Person1{
      */
     // Write your constructor here
     Practise9(String firstName, String lastName, int id, int []testScores){
-        super(firstName,lastName,id);
+        super(firstName,lastName, id);
         this.testScores=testScores;
         this.firstName=firstName;
         this.lastName=lastName;
@@ -53,6 +53,6 @@ class Practise9 extends Person1{
         if (average < 40){
             return 'T';
         }
-        else
-            return Character.MIN_VALUE;
+        else{
+            return Character.MIN_VALUE;}
     }}
